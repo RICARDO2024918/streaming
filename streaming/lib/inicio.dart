@@ -61,21 +61,12 @@ class HomePage extends StatelessWidget {
                   );
                 },
                 child: const Text(
-                  'Iniciar Sesión',
+                  'Iniciar',
                   style: TextStyle(fontSize: 18),
                 ),
               ),
               const SizedBox(height: 20),
               // Texto adicional
-              TextButton(
-                onPressed: () {
-                  // Acción para recuperar contraseña o registrarse
-                },
-                child: const Text(
-                  '¿No tienes cuenta? Regístrate aquí',
-                  style: TextStyle(color: Colors.white70),
-                ),
-              ),
             ],
           ),
         ),
