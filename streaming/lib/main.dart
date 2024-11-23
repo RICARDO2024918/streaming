@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:streaming/login_page.dart';
+import 'package:streaming/inicio.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Registro de Usuario',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: LoginPage(),
+      home: HomePage(),
     );
   }
 }
