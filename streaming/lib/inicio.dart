@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
               const SizedBox(height: 20),
               // Título de bienvenida
               const Text(
-                'Bienvenido a SteamVidio',
+                'Bienvenido a StreamVidio',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
